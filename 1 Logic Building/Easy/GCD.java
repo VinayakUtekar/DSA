@@ -29,5 +29,6 @@ public class GCD {
         int m = sc.nextInt();
         System.out.println(GC(n,m));
         System.out.println(GC2(n,m));
+        sc.close();
     }
 }

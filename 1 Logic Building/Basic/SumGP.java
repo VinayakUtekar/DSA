@@ -16,5 +16,6 @@ public class SumGP {
         int n = sc.nextInt();
 
         System.out.printf("%.5f",Sum(a,r,n));
+        sc.close();
     }
 }

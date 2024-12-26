@@ -16,5 +16,6 @@ public class CheckPower {
         int x = sc.nextInt();
         int y = sc.nextInt();
         System.err.println(Check(x,y) ? 1 : 0);
+        sc.close();
     }
 }

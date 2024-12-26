@@ -6,5 +6,6 @@ public class AreaCircle {
         int r = sc.nextInt();
 
         System.out.println(3.14 * r *r);
+        sc.close();
     }
 }

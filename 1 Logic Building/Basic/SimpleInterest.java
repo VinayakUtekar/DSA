@@ -11,5 +11,6 @@ public class SimpleInterest {
         float r = sc.nextFloat();
         float t = sc.nextFloat();
         Interest(p,r,t);
+        sc.close();
     }    
 }

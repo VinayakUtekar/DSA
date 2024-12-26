@@ -18,5 +18,6 @@ public class SquareRoot {
         int n = sc.nextInt();
         System.out.println(Root(n));
         System.out.println(Root2(n));
+        sc.close();
     }   
 }

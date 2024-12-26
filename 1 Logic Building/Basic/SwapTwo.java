@@ -20,5 +20,6 @@ public class SwapTwo {
         System.out.println(a+","+b);
         Swap1(a, b);
         Swap2(a, b);
+        sc.close();
     }
 }
