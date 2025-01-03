@@ -1,19 +1,17 @@
 import java.util.Scanner;
 
-public class SurpasserCount{
-    public static void Surpass(int [] a){
-        int [] res = new int [a.length];
+public class FindKFrequencyEle {
+    public static void Find(int [] a, int k){
         for (int i = 0; i < a.length; i++) {
-            int count = 0;
+            int count = 1;
             for (int j = i+1; j < a.length; j++) {
-                if(a[i] < a[j]){
+                if(a[i] == a[j]){
                     count++;
                 }
             }
-            res[i] = count;
-        }
-        for (int i : res) {
-            System.out.print(i + " ");
+            if(count == k){
+                System.out.print( a[i] + " ");
+            }
         }
     }
     public static void main(String[] args) {
@@ -23,7 +21,8 @@ public class SurpasserCount{
         for (int i = 0; i < a.length; i++) {
             a[i] = sc.nextInt();
         }
-        Surpass(a);
+        int k = sc.nextInt();
+        Find(a,k);
         sc.close();
     }
 }
