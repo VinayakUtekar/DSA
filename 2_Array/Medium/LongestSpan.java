@@ -7,29 +7,21 @@ public class LongestSpan {
         for (int i = 0; i < n; i++) {
             diff[i] = a[i] - b[i];
         }
-
-        // HashMap to store the first occurrence of each cumulative sum
         HashMap<Integer, Integer> map = new HashMap<>();
         int maxLen = 0;
         int sum = 0;
 
         for (int i = 0; i < n; i++) {
             sum += diff[i];
-
-            // If the cumulative sum is 0, the span is from 0 to i
             if (sum == 0) {
                 maxLen = i + 1;
             }
-
-            // If the sum has been seen before
             if (map.containsKey(sum)) {
                 maxLen = Math.max(maxLen, i - map.get(sum));
             } else {
-                // Store the first occurrence of the sum
                 map.put(sum, i);
             }
         }
-
         return maxLen;
     }
 
