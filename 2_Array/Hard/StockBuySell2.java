@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StockBuySellK {
+public class StockBuySell2{
     public static void Stock(int [] a, int k){
         int n = a.length;
         if (k >= n / 2) {
@@ -32,7 +32,7 @@ public class StockBuySellK {
         for (int i = 0; i < a.length; i++) {
             a[i] = sc.nextInt();
         }
-        int k = sc.nextInt();
+        int k = 2;
         Stock(a,k);
         sc.close();
     }
