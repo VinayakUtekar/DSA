@@ -6,6 +6,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NKElement",
+      "request": "launch",
+      "mainClass": "NKElement",
+      "projectName": "Easy_687edc6e"
+    },
+    {
+      "type": "java",
+      "name": "BitonicPoint",
+      "request": "launch",
+      "mainClass": "BitonicPoint",
+      "projectName": "Easy_687edc6e"
+    },
+    {
+      "type": "java",
+      "name": "FloorSorted",
+      "request": "launch",
+      "mainClass": "FloorSorted",
+      "projectName": "Easy_687edc6e"
+    },
+    {
+      "type": "java",
+      "name": "CeilingSorted",
+      "request": "launch",
+      "mainClass": "CeilingSorted",
+      "projectName": "Easy_687edc6e"
+    },
+    {
+      "type": "java",
+      "name": "CommonIn3",
+      "request": "launch",
+      "mainClass": "CommonIn3",
+      "projectName": "Easy_687edc6e"
+    },
+    {
+      "type": "java",
+      "name": "KSmallest2D",
+      "request": "launch",
+      "mainClass": "KSmallest2D",
+      "projectName": "Easy_687edc6e"
+    },
+    {
+      "type": "java",
+      "name": "KLargest",
+      "request": "launch",
+      "mainClass": "KLargest",
+      "projectName": "Easy_687edc6e"
+    },
+    {
+      "type": "java",
+      "name": "PairDifference",
+      "request": "launch",
+      "mainClass": "PairDifference",
+      "projectName": "Easy_687edc6e"
+    },
+    {
+      "type": "java",
       "name": "Count1",
       "request": "launch",
       "mainClass": "Count1",
