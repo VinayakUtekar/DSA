@@ -4,14 +4,14 @@ public class NKElement {
     public static void Ele(int [] a, int k){
         int d = a.length/k;
         for (int i = 0; i < a.length; i++) {
-            int count = 0;
+            int count = 1;
             for (int j = i+1; j < a.length; j++) {
                 if(a[i] == a[j]){
                     count++;
                 }
             }
             if(count > d){
-                System.out.println(a[i]);
+                System.out.print(a[i] + " ");
             }
         }
     }
