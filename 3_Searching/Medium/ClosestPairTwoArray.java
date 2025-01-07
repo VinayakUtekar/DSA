@@ -2,33 +2,25 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ClosestPairTwoArray {
-    public static void Find(int [] a, int [] a2, int t){
-        ArrayList<Integer> s = new ArrayList<>();
-        ArrayList<ArrayList<Integer>> res = new ArrayList<>();
+    public static void Find(int[] a, int[] a2, int t) {
+        int minDiff = Integer.MAX_VALUE;
+        ArrayList<Integer> closestPair = new ArrayList<>();
+
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a2.length; j++) {
                 int sum = a[i] + a2[j];
-                ArrayList<Integer> se = new ArrayList<>();
-                s.add(Math.abs(sum-t));
-                se.add(a[i]);
-                se.add(a[j]);
-                res.add(se);
-            }
-        }
-        for (int i = 0; i < s.size(); i++) {
-            for (int j = i+1; j < s.size(); j++) {
-                if(s.get(i)>=s.get(j)){
-                    int temp = s.get(i);
-                    s.set(i, s.get(j));
-                    s.set(j, temp);
-
-                    ArrayList<Integer> temp2 = res.get(i);
-                    res.set(i, res.get(j));
-                    res.set(j, temp2);
+                int diff = Math.abs(sum - t);
+                
+                if (diff < minDiff) {
+                    minDiff = diff;
+                    closestPair.clear();
+                    closestPair.add(a[i]);
+                    closestPair.add(a2[j]);
                 }
             }
         }
-        System.out.println(res.get(0));
+
+        System.out.println(closestPair);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
