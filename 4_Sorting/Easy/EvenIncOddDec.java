@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
+
 public class EvenIncOddDec {
     public static void Sort(int [] a){
         ArrayList<Integer> even = new ArrayList<>();
@@ -16,8 +20,8 @@ public class EvenIncOddDec {
             System.out.print(i + " ");
         }
         System.out.println();
-        for (int i : odd) {
-            System.out.print(i + " ");
+        for (int j = a.length-1; j >= 0; j++){
+            System.out.print(a[j] + " ");
         }
     }
     public static void main(String [] args){
