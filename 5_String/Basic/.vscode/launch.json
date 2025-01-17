@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AllSubString",
+      "request": "launch",
+      "mainClass": "AllSubString",
+      "projectName": "Basic_34653625"
+    },
+    {
+      "type": "java",
+      "name": "ReverseString",
+      "request": "launch",
+      "mainClass": "ReverseString",
+      "projectName": "Basic_34653625"
+    },
+    {
+      "type": "java",
+      "name": "ConcatenateStrings",
+      "request": "launch",
+      "mainClass": "ConcatenateStrings",
+      "projectName": "Basic_34653625"
+    },
+    {
+      "type": "java",
+      "name": "RemoveAllChar",
+      "request": "launch",
+      "mainClass": "RemoveAllChar",
+      "projectName": "Basic_34653625"
+    },
+    {
+      "type": "java",
       "name": "InsertChatAtMultiple",
       "request": "launch",
       "mainClass": "InsertChatAtMultiple",
