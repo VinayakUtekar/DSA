@@ -1,0 +1,56 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "InsertChatAtMultiple",
+      "request": "launch",
+      "mainClass": "InsertChatAtMultiple",
+      "projectName": "Basic_34653625"
+    },
+    {
+      "type": "java",
+      "name": "RemoveCharString",
+      "request": "launch",
+      "mainClass": "RemoveCharString",
+      "projectName": "Basic_34653625"
+    },
+    {
+      "type": "java",
+      "name": "InsertCharInString",
+      "request": "launch",
+      "mainClass": "InsertCharInString",
+      "projectName": "Basic_34653625"
+    },
+    {
+      "type": "java",
+      "name": "FindCharInString",
+      "request": "launch",
+      "mainClass": "FindCharInString",
+      "projectName": "Basic_34653625"
+    },
+    {
+      "type": "java",
+      "name": "SameStringOrNot",
+      "request": "launch",
+      "mainClass": "SameStringOrNot",
+      "projectName": "Basic_34653625"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "LengthOfString",
+      "request": "launch",
+      "mainClass": "LengthOfString",
+      "projectName": "Basic_34653625"
+    }
+  ]
+}
