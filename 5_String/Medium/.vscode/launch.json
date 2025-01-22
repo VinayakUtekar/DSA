@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LexicalNextString",
+      "request": "launch",
+      "mainClass": "LexicalNextString",
+      "projectName": "Medium_6b386c5e"
+    },
+    {
+      "type": "java",
+      "name": "PermutationString",
+      "request": "launch",
+      "mainClass": "PermutationString",
+      "projectName": "Medium_6b386c5e"
+    },
+    {
+      "type": "java",
+      "name": "IsomorphicString",
+      "request": "launch",
+      "mainClass": "IsomorphicString",
+      "projectName": "Medium_6b386c5e"
+    },
+    {
+      "type": "java",
       "name": "NBinaryString",
       "request": "launch",
       "mainClass": "NBinaryString",
