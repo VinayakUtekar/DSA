@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class MinAdjacentSwaps {
+public class MinSwapBrackets {
 
     public static int minSwaps(String s) {
         int n = s.length();
