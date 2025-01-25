@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Fibonacci {
     public static void Fibo(int a, int b, int n){
         int c = a+b;
