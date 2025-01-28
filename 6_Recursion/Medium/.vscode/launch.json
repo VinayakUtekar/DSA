@@ -1,49 +1,77 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "BinaryToGray",
-            "request": "launch",
-            "mainClass": "BinaryToGray",
-            "projectName": "Medium_92231416"
-        },
-        {
-            "type": "java",
-            "name": "CoinChange",
-            "request": "launch",
-            "mainClass": "CoinChange",
-            "projectName": "Medium_92231416"
-        },
-        {
-            "type": "java",
-            "name": "ProductOfNumber",
-            "request": "launch",
-            "mainClass": "ProductOfNumber",
-            "projectName": "Medium_92231416"
-        },
-        {
-            "type": "java",
-            "name": "PyrmidPrint",
-            "request": "launch",
-            "mainClass": "PyrmidPrint",
-            "projectName": "Medium_92231416"
-        },
-        {
-            "type": "java",
-            "name": "RemoveAdjacentDuplicate",
-            "request": "launch",
-            "mainClass": "RemoveAdjacentDuplicate",
-            "projectName": "Medium_92231416"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "LongestSubSequence",
+      "request": "launch",
+      "mainClass": "LongestSubSequence",
+      "projectName": "Medium_92231416"
+    },
+    {
+      "type": "java",
+      "name": "Subsets",
+      "request": "launch",
+      "mainClass": "Subsets",
+      "projectName": "Medium_92231416"
+    },
+    {
+      "type": "java",
+      "name": "StringToNumber",
+      "request": "launch",
+      "mainClass": "StringToNumber",
+      "projectName": "Medium_92231416"
+    },
+    {
+      "type": "java",
+      "name": "NCR",
+      "request": "launch",
+      "mainClass": "NCR",
+      "projectName": "Medium_92231416"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "BinaryToGray",
+      "request": "launch",
+      "mainClass": "BinaryToGray",
+      "projectName": "Medium_92231416"
+    },
+    {
+      "type": "java",
+      "name": "CoinChange",
+      "request": "launch",
+      "mainClass": "CoinChange",
+      "projectName": "Medium_92231416"
+    },
+    {
+      "type": "java",
+      "name": "ProductOfNumber",
+      "request": "launch",
+      "mainClass": "ProductOfNumber",
+      "projectName": "Medium_92231416"
+    },
+    {
+      "type": "java",
+      "name": "PyrmidPrint",
+      "request": "launch",
+      "mainClass": "PyrmidPrint",
+      "projectName": "Medium_92231416"
+    },
+    {
+      "type": "java",
+      "name": "RemoveAdjacentDuplicate",
+      "request": "launch",
+      "mainClass": "RemoveAdjacentDuplicate",
+      "projectName": "Medium_92231416"
+    }
+  ]
 }
