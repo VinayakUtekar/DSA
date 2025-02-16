@@ -1,17 +1,15 @@
-import java.util.HashMap;
 import java.util.*;
 
 public class MostDistance {
     public static void Maxi(int [] a){
+        int res = 0;
         Map<Integer,Integer> mp = new HashMap<>();
         for(int i = 0; i < a.length; i++) {
            if(!mp.containsKey(a[i])){
                 mp.put(a[i], i);
            } 
            else{
-                int pos = mp.get(a[i]);
-                mp.remove(a[i]);
-                mp.put(a[i], pos-i);
+                res = Math.max(res, i - mp.get(a[i]));
            }
         }
         int max = 0;
@@ -20,7 +18,7 @@ public class MostDistance {
                 max = m.getValue();
             }
         }
-        System.out.println(max);
+        System.out.println(res);
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
