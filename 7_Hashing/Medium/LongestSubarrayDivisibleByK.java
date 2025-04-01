@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class LongestSubarray {
+public class LongestSubarrayDivisibleByK {
     public static void Find(int [] a, int d){
         HashMap<Integer,Integer> mp = new HashMap<>();
         int res = 0, sum = 0;
